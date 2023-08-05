@@ -1,4 +1,5 @@
 import click
+var =
 
 @click.command(help="This is just a hello app. This does nothing")
 @click.option("--name", prompt="I need your name", help="Need name")
@@ -14,4 +15,3 @@ def hello(name, color):
 
 if __name__ == "__main__":
     hello()
-    
